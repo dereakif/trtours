@@ -39,6 +39,9 @@ html {
   font-size: 62.5%; }
 
 body {
+  box-sizing: border-box; }
+
+body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
@@ -66,6 +69,11 @@ body {
     letter-spacing: 1.75rem;
     animation-name: moveInRight;
     animation-duration: 1s; }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -20vh; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
